@@ -13,5 +13,8 @@ class AreaFee extends Eloquent {
     public function areas(){
         return $this->belongsTo('Area', 'area_id', 'id');
     }
+    public function campus(){
+        return $this->belongsTo('Campus', 'campus_id', 'id');
+    }
 
 }

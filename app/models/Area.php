@@ -15,9 +15,8 @@ class Area extends Eloquent {
         return $this->hasMany('CarArea', 'area_id', 'id');
     }
 
-
-    public function area_fee(){
-        return $this->belongsTo('AreaFee', 'id', 'area_id');
+    public function fee(){
+        return $this->hasMany('AreaFee', 'area_id', 'id');
     }
 
 }

@@ -50,7 +50,7 @@
                 <a href="#"><i class="fa fa-wrench fa-fw"></i>Settings<span class="fa arrow"></span></a>
                 <ul class="nav nav-second-level">
                     <li>
-                        <a href="panels-wells.html">Users</a>
+                        <a href="{{ url('user') }}">Users</a>
                     </li>
                     <li>
                         <a href="typography.html">Schools & Fees</a>
@@ -62,7 +62,7 @@
                         <a href="notifications.html">Cars</a>
                     </li>
                     <li>
-                        <a href="grid.html">Drivers</a>
+                        <a href="{{url('driver')}}">Drivers</a>
                     </li>
                 </ul>
                 <!-- second-level-items -->
